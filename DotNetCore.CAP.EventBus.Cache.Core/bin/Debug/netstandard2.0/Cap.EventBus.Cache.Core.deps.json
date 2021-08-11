@@ -1,0 +1,251 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Cap.EventBus.Cache.Core/1.0.0": {
+        "dependencies": {
+          "CSRedisCore": "3.6.6",
+          "MongoDB.Driver": "2.11.3",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "Cap.EventBus.Cache.Core.dll": {}
+        }
+      },
+      "CSRedisCore/3.6.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {
+            "assemblyVersion": "3.6.6.0",
+            "fileVersion": "3.6.6.0"
+          }
+        }
+      },
+      "DnsClient/1.3.1": {
+        "dependencies": {
+          "System.Buffers": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DnsClient.dll": {
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MongoDB.Bson/2.11.3": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "MongoDB.Driver/2.11.3": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Driver.Core": "2.11.3",
+          "MongoDB.Libmongocrypt": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Driver.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "MongoDB.Driver.Core/2.11.3": {
+        "dependencies": {
+          "DnsClient": "1.3.1",
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Libmongocrypt": "1.0.0",
+          "SharpCompress": "0.23.0",
+          "System.Buffers": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Driver.Core.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "MongoDB.Libmongocrypt/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.5/MongoDB.Libmongocrypt.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "SharpCompress/0.23.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpCompress.dll": {
+            "assemblyVersion": "0.23.0.0",
+            "fileVersion": "0.23.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "Cap.EventBus.Cache.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSRedisCore/3.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxP+ZuW3wj1425iILLyF+L1oTjWRM5odFn0p/LFYkUWzEfYznjBB7xzn716kVH3SxD0cSv7fj9Jaf1kKaPduRA==",
+      "path": "csrediscore/3.6.6",
+      "hashPath": "csrediscore.3.6.6.nupkg.sha512"
+    },
+    "DnsClient/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
+      "path": "dnsclient/1.3.1",
+      "hashPath": "dnsclient.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ymnbYdFFrNA5SXNzLtO+asIG0FB5HylRD2MqkjsKMitaya8t3MGA3zHLxaj+hMzYUlyIc1KaORKkex8wPGUjOA==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pz8qtNVGLRRdDHmkRb5r/w4KYAnPClkGbQUPAuYudlMc2cd1HRIgIQMvY3lE5F0qFAhrceObbF57UHDwcSK5xg==",
+      "path": "mongodb.bson/2.11.3",
+      "hashPath": "mongodb.bson.2.11.3.nupkg.sha512"
+    },
+    "MongoDB.Driver/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SqDCN7a8ejLB9q1lowxf6v6mD2Q/1ZSle4aEfrB0ITs0+GxjMe2zNPzxIGgsIaux1HuAwAOEP4le9SaicSj+5g==",
+      "path": "mongodb.driver/2.11.3",
+      "hashPath": "mongodb.driver.2.11.3.nupkg.sha512"
+    },
+    "MongoDB.Driver.Core/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BKX6HlO2RuNO3lX4jjwdHChmjisgjm9BsSPAiUXTEG6SSithL1IxuM+xqVRG8e/w7Z6YWZdU2ruTUZM4BVyN3A==",
+      "path": "mongodb.driver.core/2.11.3",
+      "hashPath": "mongodb.driver.core.2.11.3.nupkg.sha512"
+    },
+    "MongoDB.Libmongocrypt/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zkcsra5riDiKXqOiCKskycakpbO5RYkuUWG+z2AZML3A4NShvAs/D3InwkxH0OcbjZQOWo763Hjdmhr0AaylcA==",
+      "path": "mongodb.libmongocrypt/1.0.0",
+      "hashPath": "mongodb.libmongocrypt.1.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vgGSIvXjbWzprvhAeWXCPZ4e0/vxiRgV1jhW4KGCjW0UBR965+DSLSV71sah4m6TDQiOYniu3dmCqfiWh5WTfw==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "SharpCompress/0.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HBbT47JHvNrsZX2dTBzUBOSzBt+EmIRGLIBkbxcP6Jef7DB4eFWQX5iHWV3Nj7hABFPCjISrZ8s0z72nF2zFHQ==",
+      "path": "sharpcompress/0.23.0",
+      "hashPath": "sharpcompress.0.23.0.nupkg.sha512"
+    },
+    "System.Buffers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "path": "system.buffers/4.4.0",
+      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RQnx6R+honvlyxoysBI1NV9bEpikdKVZP8q99XPg/jG2HAg8pJRlzyaAHFp3e6ThLRGbrTLn6eXuaJKTcgdqaA==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}

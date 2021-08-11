@@ -1,0 +1,732 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "CSRedisCore/3.6.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/CSRedisCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {}
+        }
+      },
+      "DnsClient/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DnsClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DnsClient.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "MongoDB.Bson/2.11.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.11.3": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Driver.Core": "2.11.3",
+          "MongoDB.Libmongocrypt": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.11.3": {
+        "type": "package",
+        "dependencies": {
+          "DnsClient": "1.3.1",
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Libmongocrypt": "1.0.0",
+          "SharpCompress": "0.23.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Driver.Core.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/native/libzstd.dll": {
+            "assetType": "native",
+            "rid": "win"
+          },
+          "runtimes/win/native/snappy32.dll": {
+            "assetType": "native",
+            "rid": "win"
+          },
+          "runtimes/win/native/snappy64.dll": {
+            "assetType": "native",
+            "rid": "win"
+          }
+        }
+      },
+      "MongoDB.Libmongocrypt/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.5/MongoDB.Libmongocrypt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/MongoDB.Libmongocrypt.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SharpCompress/0.23.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpCompress.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSRedisCore/3.6.6": {
+      "sha512": "fxP+ZuW3wj1425iILLyF+L1oTjWRM5odFn0p/LFYkUWzEfYznjBB7xzn716kVH3SxD0cSv7fj9Jaf1kKaPduRA==",
+      "type": "package",
+      "path": "csrediscore/3.6.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csrediscore.3.6.6.nupkg.sha512",
+        "csrediscore.nuspec",
+        "lib/net40/CSRedisCore.dll",
+        "lib/net40/CSRedisCore.xml",
+        "lib/net45/CSRedisCore.dll",
+        "lib/net45/CSRedisCore.xml",
+        "lib/netstandard2.0/CSRedisCore.dll",
+        "lib/netstandard2.0/CSRedisCore.xml"
+      ]
+    },
+    "DnsClient/1.3.1": {
+      "sha512": "b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
+      "type": "package",
+      "path": "dnsclient/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dnsclient.1.3.1.nupkg.sha512",
+        "dnsclient.nuspec",
+        "icon.png",
+        "lib/net45/DnsClient.dll",
+        "lib/net45/DnsClient.xml",
+        "lib/net471/DnsClient.dll",
+        "lib/net471/DnsClient.xml",
+        "lib/netstandard1.3/DnsClient.dll",
+        "lib/netstandard1.3/DnsClient.xml",
+        "lib/netstandard2.0/DnsClient.dll",
+        "lib/netstandard2.0/DnsClient.xml",
+        "lib/netstandard2.1/DnsClient.dll",
+        "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "ymnbYdFFrNA5SXNzLtO+asIG0FB5HylRD2MqkjsKMitaya8t3MGA3zHLxaj+hMzYUlyIc1KaORKkex8wPGUjOA==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "MongoDB.Bson/2.11.3": {
+      "sha512": "pz8qtNVGLRRdDHmkRb5r/w4KYAnPClkGbQUPAuYudlMc2cd1HRIgIQMvY3lE5F0qFAhrceObbF57UHDwcSK5xg==",
+      "type": "package",
+      "path": "mongodb.bson/2.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Bson.dll",
+        "lib/net452/MongoDB.Bson.xml",
+        "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "lib/netstandard2.0/MongoDB.Bson.dll",
+        "lib/netstandard2.0/MongoDB.Bson.xml",
+        "mongodb.bson.2.11.3.nupkg.sha512",
+        "mongodb.bson.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "MongoDB.Driver/2.11.3": {
+      "sha512": "SqDCN7a8ejLB9q1lowxf6v6mD2Q/1ZSle4aEfrB0ITs0+GxjMe2zNPzxIGgsIaux1HuAwAOEP4le9SaicSj+5g==",
+      "type": "package",
+      "path": "mongodb.driver/2.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Driver.dll",
+        "lib/net452/MongoDB.Driver.xml",
+        "lib/netstandard1.5/MongoDB.Driver.dll",
+        "lib/netstandard1.5/MongoDB.Driver.xml",
+        "lib/netstandard2.0/MongoDB.Driver.dll",
+        "lib/netstandard2.0/MongoDB.Driver.xml",
+        "mongodb.driver.2.11.3.nupkg.sha512",
+        "mongodb.driver.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "MongoDB.Driver.Core/2.11.3": {
+      "sha512": "BKX6HlO2RuNO3lX4jjwdHChmjisgjm9BsSPAiUXTEG6SSithL1IxuM+xqVRG8e/w7Z6YWZdU2ruTUZM4BVyN3A==",
+      "type": "package",
+      "path": "mongodb.driver.core/2.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "THIRD-PARTY-NOTICES",
+        "build/MongoDB.Driver.Core.targets",
+        "content/Core/Compression/Snappy/lib/win/snappy32.dll",
+        "content/Core/Compression/Snappy/lib/win/snappy64.dll",
+        "content/Core/Compression/Zstandard/lib/win/libzstd.dll",
+        "contentFiles/any/net452/Core/Compression/Snappy/lib/win/snappy32.dll",
+        "contentFiles/any/net452/Core/Compression/Snappy/lib/win/snappy64.dll",
+        "contentFiles/any/net452/Core/Compression/Zstandard/lib/win/libzstd.dll",
+        "contentFiles/any/netstandard1.5/Core/Compression/Snappy/lib/win/snappy32.dll",
+        "contentFiles/any/netstandard1.5/Core/Compression/Snappy/lib/win/snappy64.dll",
+        "contentFiles/any/netstandard1.5/Core/Compression/Zstandard/lib/win/libzstd.dll",
+        "contentFiles/any/netstandard2.0/Core/Compression/Snappy/lib/win/snappy32.dll",
+        "contentFiles/any/netstandard2.0/Core/Compression/Snappy/lib/win/snappy64.dll",
+        "contentFiles/any/netstandard2.0/Core/Compression/Zstandard/lib/win/libzstd.dll",
+        "lib/net452/MongoDB.Driver.Core.dll",
+        "lib/net452/MongoDB.Driver.Core.xml",
+        "lib/netstandard1.5/MongoDB.Driver.Core.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Core.xml",
+        "lib/netstandard2.0/MongoDB.Driver.Core.dll",
+        "lib/netstandard2.0/MongoDB.Driver.Core.xml",
+        "mongodb.driver.core.2.11.3.nupkg.sha512",
+        "mongodb.driver.core.nuspec",
+        "packageIcon.png",
+        "runtimes/win/native/libzstd.dll",
+        "runtimes/win/native/snappy32.dll",
+        "runtimes/win/native/snappy64.dll"
+      ]
+    },
+    "MongoDB.Libmongocrypt/1.0.0": {
+      "sha512": "zkcsra5riDiKXqOiCKskycakpbO5RYkuUWG+z2AZML3A4NShvAs/D3InwkxH0OcbjZQOWo763Hjdmhr0AaylcA==",
+      "type": "package",
+      "path": "mongodb.libmongocrypt/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/MongoDB.Libmongocrypt.targets",
+        "lib/net452/MongoDB.Libmongocrypt.dll",
+        "lib/netstandard1.5/MongoDB.Libmongocrypt.dll",
+        "mongodb.libmongocrypt.1.0.0.nupkg.sha512",
+        "mongodb.libmongocrypt.nuspec",
+        "x64/native/windows/mongocrypt.dll"
+      ]
+    },
+    "NETStandard.Library/2.0.3": {
+      "sha512": "vgGSIvXjbWzprvhAeWXCPZ4e0/vxiRgV1jhW4KGCjW0UBR965+DSLSV71sah4m6TDQiOYniu3dmCqfiWh5WTfw==",
+      "type": "package",
+      "path": "netstandard.library/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/NETStandard.Library.targets",
+        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
+        "build/netstandard2.0/ref/System.AppContext.dll",
+        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
+        "build/netstandard2.0/ref/System.Collections.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.dll",
+        "build/netstandard2.0/ref/System.Console.dll",
+        "build/netstandard2.0/ref/System.Core.dll",
+        "build/netstandard2.0/ref/System.Data.Common.dll",
+        "build/netstandard2.0/ref/System.Data.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
+        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
+        "build/netstandard2.0/ref/System.Drawing.dll",
+        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
+        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/ref/System.Globalization.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
+        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
+        "build/netstandard2.0/ref/System.IO.Pipes.dll",
+        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
+        "build/netstandard2.0/ref/System.IO.dll",
+        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
+        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
+        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
+        "build/netstandard2.0/ref/System.Linq.dll",
+        "build/netstandard2.0/ref/System.Net.Http.dll",
+        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
+        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
+        "build/netstandard2.0/ref/System.Net.Ping.dll",
+        "build/netstandard2.0/ref/System.Net.Primitives.dll",
+        "build/netstandard2.0/ref/System.Net.Requests.dll",
+        "build/netstandard2.0/ref/System.Net.Security.dll",
+        "build/netstandard2.0/ref/System.Net.Sockets.dll",
+        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
+        "build/netstandard2.0/ref/System.Net.dll",
+        "build/netstandard2.0/ref/System.Numerics.dll",
+        "build/netstandard2.0/ref/System.ObjectModel.dll",
+        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
+        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
+        "build/netstandard2.0/ref/System.Reflection.dll",
+        "build/netstandard2.0/ref/System.Resources.Reader.dll",
+        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
+        "build/netstandard2.0/ref/System.Resources.Writer.dll",
+        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
+        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
+        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
+        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
+        "build/netstandard2.0/ref/System.Runtime.dll",
+        "build/netstandard2.0/ref/System.Security.Claims.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
+        "build/netstandard2.0/ref/System.Security.Principal.dll",
+        "build/netstandard2.0/ref/System.Security.SecureString.dll",
+        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.dll",
+        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
+        "build/netstandard2.0/ref/System.Threading.Thread.dll",
+        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/ref/System.Threading.Timer.dll",
+        "build/netstandard2.0/ref/System.Threading.dll",
+        "build/netstandard2.0/ref/System.Transactions.dll",
+        "build/netstandard2.0/ref/System.ValueTuple.dll",
+        "build/netstandard2.0/ref/System.Web.dll",
+        "build/netstandard2.0/ref/System.Windows.dll",
+        "build/netstandard2.0/ref/System.Xml.Linq.dll",
+        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
+        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/ref/System.Xml.dll",
+        "build/netstandard2.0/ref/System.dll",
+        "build/netstandard2.0/ref/mscorlib.dll",
+        "build/netstandard2.0/ref/netstandard.dll",
+        "build/netstandard2.0/ref/netstandard.xml",
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "SharpCompress/0.23.0": {
+      "sha512": "HBbT47JHvNrsZX2dTBzUBOSzBt+EmIRGLIBkbxcP6Jef7DB4eFWQX5iHWV3Nj7hABFPCjISrZ8s0z72nF2zFHQ==",
+      "type": "package",
+      "path": "sharpcompress/0.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/SharpCompress.dll",
+        "lib/net45/SharpCompress.dll",
+        "lib/netstandard1.0/SharpCompress.dll",
+        "lib/netstandard1.3/SharpCompress.dll",
+        "lib/netstandard2.0/SharpCompress.dll",
+        "sharpcompress.0.23.0.nupkg.sha512",
+        "sharpcompress.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "sha512": "4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.1.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "RQnx6R+honvlyxoysBI1NV9bEpikdKVZP8q99XPg/jG2HAg8pJRlzyaAHFp3e6ThLRGbrTLn6eXuaJKTcgdqaA==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "CSRedisCore >= 3.6.6",
+      "MongoDB.Driver >= 2.11.3",
+      "NETStandard.Library >= 2.0.3",
+      "Newtonsoft.Json >= 13.0.1"
+    ]
+  },
+  "packageFolders": {
+    "D:\\ProgramData\\nuget\\packages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\DotNetCore.CAP.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj",
+      "projectName": "DotNetCore.CAP.EventBus.Cache.Core",
+      "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\DotNetCore.CAP.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj",
+      "packagesPath": "D:\\ProgramData\\nuget\\packages",
+      "outputPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\DotNetCore.CAP.EventBus.Cache.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://123.207.193.228:30888/": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.onein.cn": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
+        "dependencies": {
+          "CSRedisCore": {
+            "target": "Package",
+            "version": "[3.6.6, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.11.3, )"
+          },
+          "NETStandard.Library": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.3, )",
+            "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

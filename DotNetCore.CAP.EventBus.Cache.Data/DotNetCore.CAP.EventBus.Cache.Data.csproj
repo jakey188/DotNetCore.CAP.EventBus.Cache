@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DotNetCore.CAP.MongoDB" Version="3.1.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DotNetCore.CAP.EventBus.Cache.Core\DotNetCore.CAP.EventBus.Cache.Core.csproj" />
+	</ItemGroup>
+</Project>

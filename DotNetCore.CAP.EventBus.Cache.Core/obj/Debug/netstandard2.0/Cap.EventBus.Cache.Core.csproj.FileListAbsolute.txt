@@ -1,0 +1,9 @@
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\bin\Debug\netstandard2.0\Cap.EventBus.Cache.Core.deps.json
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\bin\Debug\netstandard2.0\Cap.EventBus.Cache.Core.dll
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\bin\Debug\netstandard2.0\Cap.EventBus.Cache.Core.pdb
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\Cap.EventBus.Cache.Core.AssemblyInfoInputs.cache
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\Cap.EventBus.Cache.Core.AssemblyInfo.cs
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\Cap.EventBus.Cache.Core.csproj.CoreCompileInputs.cache
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\Cap.EventBus.Cache.Core.dll
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\Cap.EventBus.Cache.Core.pdb
+E:\云畅\code\实验性\EventOrCap\Cap.EventBus.Cache.Web\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\Cap.EventBus.Cache.Core.csprojAssemblyReference.cache

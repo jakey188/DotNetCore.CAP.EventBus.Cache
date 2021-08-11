@@ -1,0 +1,556 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "DotNetCore.CAP.EventBus.Cache.Data/1.0.0": {
+        "dependencies": {
+          "DotNetCore.CAP.EventBus.Cache.Core": "1.0.0",
+          "DotNetCore.CAP.MongoDB": "3.1.2",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "DotNetCore.CAP.EventBus.Cache.Data.dll": {}
+        }
+      },
+      "CSRedisCore/3.6.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {
+            "assemblyVersion": "3.6.6.0",
+            "fileVersion": "3.6.6.0"
+          }
+        }
+      },
+      "DnsClient/1.3.1": {
+        "dependencies": {
+          "System.Buffers": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DnsClient.dll": {
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
+          }
+        }
+      },
+      "DotNetCore.CAP/3.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.7",
+          "Microsoft.Extensions.Options": "3.1.7",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Diagnostics.DiagnosticSource": "4.7.1",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "DotNetCore.CAP.MongoDB/3.1.2": {
+        "dependencies": {
+          "DotNetCore.CAP": "3.1.2",
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Driver": "2.11.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.MongoDB.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.7": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/3.1.7": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.7",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.7",
+          "Microsoft.Extensions.Primitives": "3.1.7",
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.7": {
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MongoDB.Bson/2.11.3": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "MongoDB.Driver/2.11.3": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Driver.Core": "2.11.3",
+          "MongoDB.Libmongocrypt": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Driver.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "MongoDB.Driver.Core/2.11.3": {
+        "dependencies": {
+          "DnsClient": "1.3.1",
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Libmongocrypt": "1.0.0",
+          "SharpCompress": "0.23.0",
+          "System.Buffers": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Driver.Core.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "MongoDB.Libmongocrypt/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.5/MongoDB.Libmongocrypt.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "SharpCompress/0.23.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpCompress.dll": {
+            "assemblyVersion": "0.23.0.0",
+            "fileVersion": "0.23.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.700.20.12001"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
+      "System.Threading.Channels/4.7.1": {
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "4.2.0.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "DotNetCore.CAP.EventBus.Cache.Core/1.0.0": {
+        "dependencies": {
+          "CSRedisCore": "3.6.6",
+          "MongoDB.Driver": "2.11.3",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "DotNetCore.CAP.EventBus.Cache.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetCore.CAP.EventBus.Cache.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSRedisCore/3.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxP+ZuW3wj1425iILLyF+L1oTjWRM5odFn0p/LFYkUWzEfYznjBB7xzn716kVH3SxD0cSv7fj9Jaf1kKaPduRA==",
+      "path": "csrediscore/3.6.6",
+      "hashPath": "csrediscore.3.6.6.nupkg.sha512"
+    },
+    "DnsClient/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
+      "path": "dnsclient/1.3.1",
+      "hashPath": "dnsclient.1.3.1.nupkg.sha512"
+    },
+    "DotNetCore.CAP/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFgUxYNuoQmROiZgzz5oWR1n1uxuaM4/2j8B7DJ1t+pYpsJRIba3SXBbcIf89cHQ0I7zZJwTq2hnMFtp36dN0w==",
+      "path": "dotnetcore.cap/3.1.2",
+      "hashPath": "dotnetcore.cap.3.1.2.nupkg.sha512"
+    },
+    "DotNetCore.CAP.MongoDB/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ZxsMfS1E/FVlceIbbaKcMrhYP3Ul08CMAh99TkSFvcT9rawiEKE2QCIs8dLdgpAZnjxqilFEw+GEfiyhnn+6Q==",
+      "path": "dotnetcore.cap.mongodb/3.1.2",
+      "hashPath": "dotnetcore.cap.mongodb.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WJEbrrIgly95D9rM8Gwr4w8sbYla6/iOcCZ0UE7+Qg/Q8NnQJwAJ60Lq1A26zbNE8Fm1fkbGU90LDl8e+BoRSQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKL2yNtTN1/cOp+cbdyv5TeLzO+GkO9B3fvbcPzKWTNCkDoH3ccYS3FWC1p4KSYe9frW4WsyfSTeM8X+xftOig==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nasMSdDlIIBcKgGVHoZdFSmfUY1bI0zkvfZTsWLlEFcMCVD0fzcgsVlkeZTzPLJV0w7Uwq3okOgMWpU1nFEhxg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4j6lSyPJF2emznd7Y4nZp8UbVyhe/defMPyFBV+YfINbAgJ3HgUPWp2QdsO87WOzWjlXTU4ZFwL2fuuMbwdR5g==",
+      "path": "microsoft.extensions.hosting.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.hosting.abstractions.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oD7LQbMuaqq/yAz8PKX0hl4+H/vDFTQHo8rxbKB36P1/bG8FG7JUVKBoHkSt1MaJUtgyiHrH1AlAhaucKUKyEg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O5TXu1D79hbaZuKCIK4mswSP86MtmiIQjuOZnVhPdbjOVILsoQwZUtnmU2xRfX1E0QWuFEI0umhw3mDDn6dNHw==",
+      "path": "microsoft.extensions.options/3.1.7",
+      "hashPath": "microsoft.extensions.options.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sa17s3vDAXTuIVGxuJcK713i0B0iaUoiwY4Sl2SLHhMqM8snznn0YVGiZAVkoKEUFWjvIg1Z/JNmAicBamI4mg==",
+      "path": "microsoft.extensions.primitives/3.1.7",
+      "hashPath": "microsoft.extensions.primitives.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ymnbYdFFrNA5SXNzLtO+asIG0FB5HylRD2MqkjsKMitaya8t3MGA3zHLxaj+hMzYUlyIc1KaORKkex8wPGUjOA==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pz8qtNVGLRRdDHmkRb5r/w4KYAnPClkGbQUPAuYudlMc2cd1HRIgIQMvY3lE5F0qFAhrceObbF57UHDwcSK5xg==",
+      "path": "mongodb.bson/2.11.3",
+      "hashPath": "mongodb.bson.2.11.3.nupkg.sha512"
+    },
+    "MongoDB.Driver/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SqDCN7a8ejLB9q1lowxf6v6mD2Q/1ZSle4aEfrB0ITs0+GxjMe2zNPzxIGgsIaux1HuAwAOEP4le9SaicSj+5g==",
+      "path": "mongodb.driver/2.11.3",
+      "hashPath": "mongodb.driver.2.11.3.nupkg.sha512"
+    },
+    "MongoDB.Driver.Core/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BKX6HlO2RuNO3lX4jjwdHChmjisgjm9BsSPAiUXTEG6SSithL1IxuM+xqVRG8e/w7Z6YWZdU2ruTUZM4BVyN3A==",
+      "path": "mongodb.driver.core/2.11.3",
+      "hashPath": "mongodb.driver.core.2.11.3.nupkg.sha512"
+    },
+    "MongoDB.Libmongocrypt/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zkcsra5riDiKXqOiCKskycakpbO5RYkuUWG+z2AZML3A4NShvAs/D3InwkxH0OcbjZQOWo763Hjdmhr0AaylcA==",
+      "path": "mongodb.libmongocrypt/1.0.0",
+      "hashPath": "mongodb.libmongocrypt.1.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vgGSIvXjbWzprvhAeWXCPZ4e0/vxiRgV1jhW4KGCjW0UBR965+DSLSV71sah4m6TDQiOYniu3dmCqfiWh5WTfw==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "SharpCompress/0.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HBbT47JHvNrsZX2dTBzUBOSzBt+EmIRGLIBkbxcP6Jef7DB4eFWQX5iHWV3Nj7hABFPCjISrZ8s0z72nF2zFHQ==",
+      "path": "sharpcompress/0.23.0",
+      "hashPath": "sharpcompress.0.23.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Threading.Channels/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+      "path": "system.threading.channels/4.7.1",
+      "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RQnx6R+honvlyxoysBI1NV9bEpikdKVZP8q99XPg/jG2HAg8pJRlzyaAHFp3e6ThLRGbrTLn6eXuaJKTcgdqaA==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "DotNetCore.CAP.EventBus.Cache.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

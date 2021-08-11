@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetCore.CAP.EventBus.Cache.Demo</name>
+    </assembly>
+    <members>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.RoleController.Add(DotNetCore.CAP.Cap.EventBus.Cache.Data.Entites.RoleEntity)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.RoleController.GetRoleAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.RoleController.GetRoleListByAppId(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="appId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.RoleController.Delete(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.UserController.GetUserInfoAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.UserController.Add(DotNetCore.CAP.Cap.EventBus.Cache.Data.Entites.UserEntity)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCore.CAP.Cap.EventBus.Cache.Web.Controllers.UserController.Delete(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

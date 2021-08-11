@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Services\\Cap.EventBus.Cache.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj",
+        "projectName": "DotNetCore.CAP.EventBus.Cache.Core",
+        "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj",
+        "packagesPath": "D:\\ProgramData\\nuget\\packages",
+        "outputPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://123.207.193.228:30888/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.onein.cn": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Data\\DotNetCore.CAP.EventBus.Cache.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Data\\DotNetCore.CAP.EventBus.Cache.Data.csproj",
+        "projectName": "DotNetCore.CAP.EventBus.Cache.Data",
+        "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Data\\DotNetCore.CAP.EventBus.Cache.Data.csproj",
+        "packagesPath": "D:\\ProgramData\\nuget\\packages",
+        "outputPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://123.207.193.228:30888/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.onein.cn": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj": {
+                "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "DotNetCore.CAP.MongoDB": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Services\\Cap.EventBus.Cache.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Services\\Cap.EventBus.Cache.Services.csproj",
+        "projectName": "Cap.EventBus.Cache.Services",
+        "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Services\\Cap.EventBus.Cache.Services.csproj",
+        "packagesPath": "D:\\ProgramData\\nuget\\packages",
+        "outputPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://123.207.193.228:30888/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.onein.cn": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj": {
+                "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Core\\DotNetCore.CAP.EventBus.Cache.Core.csproj"
+              },
+              "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Data\\DotNetCore.CAP.EventBus.Cache.Data.csproj": {
+                "projectPath": "C:\\Users\\Thinkpad\\Desktop\\git\\DotNetCore.CAP.EventBus.Cache\\Cap.EventBus.Cache.Data\\DotNetCore.CAP.EventBus.Cache.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
+            "DotNetCore.CAP.MongoDB": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\bin\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.deps.json
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\bin\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.dll
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\bin\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.pdb
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.csprojAssemblyReference.cache
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.AssemblyInfoInputs.cache
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.AssemblyInfo.cs
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.dll
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\Cap.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.pdb
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\bin\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.deps.json
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\bin\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.dll
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\bin\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.pdb
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.AssemblyInfoInputs.cache
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.AssemblyInfo.cs
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.dll
+C:\Users\Thinkpad\Desktop\git\DotNetCore.CAP.EventBus.Cache\DotNetCore.CAP.EventBus.Cache.Core\obj\Debug\netstandard2.0\DotNetCore.CAP.EventBus.Cache.Core.pdb
